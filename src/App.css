@@ -11,6 +11,16 @@
   border-radius: 10px;
 }
 
+.logo-img {
+  height: 100px;
+ 
+}
+
+.main-title {
+  text-align: center;
+  color: #3498DB;
+}
+
 .home-content h4{
   color: white;
   text-align: center;
@@ -19,7 +29,8 @@
 }
 
 .product-img {
-  height: 254px;
+  height: 200px;
+  width: 99%;
   border-style: solid;
   border-width: 1px;
   border-color: darkgray;
@@ -49,9 +60,27 @@
 }
 
 .contact-content h4 {
-  font-size: 23px;
+  font-size: 25px;
   color: white;
   margin: auto;
   padding:10px;
   text-align:center;
+  font-weight: bold;
+}
+
+.contact-content h5 {
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding:15px;
+  padding-right: 18px;
+
+}
+
+.contact-content i {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-right: 5px;
 }

@@ -13,7 +13,8 @@ class Home extends Component {
                     </Cell>
                     <Cell col={4}>
                         <div className="home-content"><h4>Featured Product</h4>
-                        <img src={productImage} alt="productImage"  className="product-img"/></div>
+                        <img src={productImage} alt="productImage"  className="product-img"/>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
