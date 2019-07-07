@@ -23,6 +23,13 @@ class Contact extends Component {
                     <Cell col={6}>
                         <div className="contact-content">Questions or Comments?</div>
                     </Cell>
+                    <Cell col={4}>
+                        <div className="about-contact">
+                            <h4>Social Media</h4>
+                            <a href="https://www.instagram.com/lugnutsautoglass/"><i class='fab fa-instagram'><h4>Instagram</h4></i></a>
+                            <a href="https://twitter.com/LugnutsG"><i class='fab fa-twitter'><h4>Twitter</h4></i></a>
+                        </div>
+                    </Cell>
                 </Grid>
             </div>
         )
