@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "893e01f7ec9f6bab27172b59d7bc38cc",
+    "revision": "07d5de4962289ea8ba96f69023c852e9",
     "url": "/lutnutsautoglass.github.io/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lutnutsautoglass.github.io/static/css/2.04aae6c4.chunk.css"
   },
   {
-    "revision": "d441e979a477984a00c6",
+    "revision": "de9b9a4459b146d1197d",
     "url": "/lutnutsautoglass.github.io/static/css/main.728bb84f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lutnutsautoglass.github.io/static/js/2.77ccf7f8.chunk.js"
   },
   {
-    "revision": "d441e979a477984a00c6",
-    "url": "/lutnutsautoglass.github.io/static/js/main.6c9e7377.chunk.js"
+    "revision": "de9b9a4459b146d1197d",
+    "url": "/lutnutsautoglass.github.io/static/js/main.b0f50236.chunk.js"
   },
   {
     "revision": "ed5bca61605b5aeba2dd",

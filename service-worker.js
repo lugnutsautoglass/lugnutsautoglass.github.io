@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lutnutsautoglass.github.io/precache-manifest.2d2050ee6ada063ca500b255d15d72ae.js"
+  "/lutnutsautoglass.github.io/precache-manifest.483f081ed140436c1310d2116dce7837.js"
 );
 
 self.addEventListener('message', (event) => {
