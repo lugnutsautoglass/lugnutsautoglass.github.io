@@ -10,6 +10,19 @@ class Contact extends Component {
                     <Cell col={12}>
                         <div className="contact-title">Contact</div>
                     </Cell>
+                    <Cell col={6}>
+                        <div className="contact-content">
+                            LOCATION:
+                            LUGNUT’S AUTO GLASS
+                            1234 WINDSHIELD WAY
+                            COLUMBUS, OH 12345
+                            TELEPHONE #:
+                            123-456-7890
+                        </div>
+                    </Cell>
+                    <Cell col={6}>
+                        <div className="contact-content">Questions or Comments?</div>
+                    </Cell>
                 </Grid>
             </div>
         )

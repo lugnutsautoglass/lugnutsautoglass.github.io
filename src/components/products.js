@@ -10,6 +10,24 @@ class Products extends Component {
                     <Cell col={12}>
                         <div className="products-title">Products</div>
                     </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
+                    <Cell col={4}>
+                        <div className="products-content">Product Name</div>
+                    </Cell>
                 </Grid>
             </div>
         )
