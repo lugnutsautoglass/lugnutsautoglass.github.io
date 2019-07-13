@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 import logo from './components/img/logo.jpg';
 
 
-
 class App extends Component {
   render() {
     return (
@@ -18,7 +17,7 @@ class App extends Component {
         </Cell>
         <Cell col={4}><div className="main-title"><h3>Lugnuts Auto Glass</h3></div></Cell>
       </Grid>
-      
+
         <Layout>
             <Header className="header-color" scroll>
                 <Navigation>
