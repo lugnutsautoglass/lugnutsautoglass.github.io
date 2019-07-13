@@ -35,13 +35,4 @@ class Products extends Component {
 }
 
 
-connection.query('SELECT productName from products', function (error, results, fields) {
-    if (error)
-        throw error;
-
-    results.forEach(result => {
-        console.log(result);
-    });
-});
-
 export default Products;
