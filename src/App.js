@@ -18,7 +18,7 @@ class App extends Component {
         </Cell>
         <Cell col={4}><div className="main-title"><h3>Lugnuts Auto Glass</h3></div></Cell>
       </Grid>
-      
+
         <Layout>
             <Header className="header-color" scroll>
                 <Navigation>
