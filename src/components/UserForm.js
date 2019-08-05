@@ -61,7 +61,7 @@ export class UserForm extends Component {
             ccType,
             ccNum,
             expDate,
-            cardVeri} = this.state;
+            cardVeri, userProducts} = this.state;
         const values = { firstName,
             lastName,
             userNum,
@@ -75,7 +75,7 @@ export class UserForm extends Component {
             ccType,
             ccNum,
             expDate,
-            cardVeri}
+            cardVeri, userProducts}
 
         switch (step) {
             case 1:

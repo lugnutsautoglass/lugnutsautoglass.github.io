@@ -35,6 +35,13 @@ export class FormUserDetails extends Component {
                     defaultValue={values.userEmail}
                     />
                     <br/>
+                    <TextField
+                    hintText="Enter product & quantity you would like to purchase."
+                    floatingLabelText="Wanted Products"
+                    onChange={handleChange('userProducts')}
+                    defaultValue={values.userProducts}
+                    />
+                    <br/>
                     <RaisedButton
                         label="Continue"
                         primary={true}
