@@ -36,10 +36,17 @@ export class FormUserDetails extends Component {
                     />
                     <br/>
                     <TextField
-                    hintText="Enter product & quantity you would like to purchase."
-                    floatingLabelText="Wanted Products"
+                    hintText="Enter the product you want"
+                    floatingLabelText="Wanted Product"
                     onChange={handleChange('userProducts')}
                     defaultValue={values.userProducts}
+                    />
+                    <br/>
+                    <TextField
+                    hintText="Enter the quantity"
+                    floatingLabelText="Quantity"
+                    onChange={handleChange('userQuantity')}
+                    defaultValue={values.userQuantity}
                     />
                     <br/>
                     <RaisedButton

@@ -19,6 +19,7 @@ export class Confirm extends Component {
         const { values: {firstName,
             lastName,
             userProducts,
+            userQuantity,
             userStreet,
             userCity,
             userState,
@@ -47,6 +48,10 @@ export class Confirm extends Component {
                         <ListItem
                             primaryText="Wanted Products"
                             secondaryText= { userProducts }
+                        />
+                        <ListItem
+                            primaryText="Quantity"
+                            secondaryText= { userQuantity }
                         />
                         <ListItem
                             primaryText="Name on Credit Card"
