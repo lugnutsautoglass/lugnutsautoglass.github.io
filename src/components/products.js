@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Cell} from 'react-mdl';
 import productImage from './img/blade1.jpg';
-import productImage1 from './img/Windshield.jpg';
+import productImage1 from './img/windshield.jpg';
 
 
 class Products extends Component {
