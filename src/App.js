@@ -26,7 +26,7 @@ class App extends Component {
                     <Link to="/about"><h6>About</h6></Link>
                     <Link to="/products"><h6>Products</h6></Link>
                     <Link to="/contact"><h6>Contact</h6></Link>
-                    <Link to="/cart"><h6>Cart</h6></Link>
+                    <Link to="/cart"><h6>Order</h6></Link>
                 </Navigation>
             </Header>
             <Drawer title="Lugnut's Auto Glass">
@@ -35,7 +35,7 @@ class App extends Component {
                   <Link to="/about">About</Link>
                   <Link to="/products">Products</Link>
                   <Link to="/contact">Contact</Link>
-                  <Link to="/cart">Cart</Link>
+                  <Link to="/cart">Order</Link>
               </Navigation>
             </Drawer>
             <Content>

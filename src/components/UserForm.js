@@ -1,7 +1,6 @@
 /* eslint-disable default-case */
 import React, { Component } from 'react';
 import FormUserDetails from './FormUserDetails';
-import FormPersonalDetails from './FormPersonalDetails';
 import FormShippingDetails from './FormShippingDetails';
 import Confirm from './Confirm';
 import OrderSubmitted from './OrderSubmitted';
@@ -91,7 +90,7 @@ export class UserForm extends Component {
 
             case 2:
                 return (
-                    <FormPersonalDetails
+                    <FormShippingDetails
                         nextStep={this.nextStep}
                         prevStep={this.prevStep}
                         handleChange={this.handleChange}
@@ -100,15 +99,6 @@ export class UserForm extends Component {
                 );
             case 3:
                 return (
-                    <FormShippingDetails
-                        nextStep={this.nextStep}
-                        prevStep={this.prevStep}
-                        handleChange={this.handleChange}
-                        values={values}
-                    />
-                );
-            case 4:
-                return (
                     <Confirm
                         nextStep={this.nextStep}
                         prevStep={this.prevStep}
@@ -116,7 +106,7 @@ export class UserForm extends Component {
                         values={values}
                     />
                 );
-            case 5:
+            case 4:
                 return <OrderSubmitted/>;
         }
     }

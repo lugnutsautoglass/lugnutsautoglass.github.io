@@ -24,10 +24,7 @@ export class Confirm extends Component {
             userCity,
             userState,
             userZip,
-            userEmail,
-            nameOnCard,
-            ccType,
-            expDate} } = this.props;
+            userEmail} } = this.props;
         return (
             <MuiThemeProvider>
                 <React.Fragment>
@@ -52,38 +49,6 @@ export class Confirm extends Component {
                         <ListItem
                             primaryText="Quantity"
                             secondaryText= { userQuantity }
-                        />
-                        <ListItem
-                            primaryText="Name on Credit Card"
-                            secondaryText= { nameOnCard }
-                        />
-                        <ListItem
-                            primaryText="Credit Card Type"
-                            secondaryText= { ccType }
-                        />
-                        <ListItem
-                            primaryText="Credit Card #"
-                            secondaryText= { '****' }
-                        />
-                        <ListItem
-                            primaryText="Expiration"
-                            secondaryText= { expDate }
-                        />
-                        <ListItem    
-                            primaryText="Card Verification #"
-                            secondaryText= { '****' }
-                        />
-                        <ListItem
-                            primaryText="Credit Card #"
-                            secondaryText= {'****'}
-                        />
-                        <ListItem
-                            primaryText="Expiration Date"
-                            secondaryText= { expDate}
-                        />
-                        <ListItem
-                            primaryText="Card Verification Number"
-                            secondaryText= { '****'}
                         />
                         <ListItem
                             primaryText="Street Address"

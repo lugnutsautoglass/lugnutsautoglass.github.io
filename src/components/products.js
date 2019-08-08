@@ -10,7 +10,7 @@ class Products extends Component {
             <div style={{width: '80%', margin: 'auto'}}>
                 <Grid className="main-grid">
                     <Cell col={12}>
-                        <div className="products-title">Windsheilds</div>
+                        <div className="products-title"><h4>Windshields</h4></div>
                     </Cell>
                     <Cell col={4}>
                         <img src={productImage1} alt="productImage1"  className="product-img"/>
@@ -76,7 +76,7 @@ class Products extends Component {
                         <div className="products-content">Your Price: $426.93</div>
                     </Cell>
                     <Cell col={12}>
-                        <div className="products-title">Wipers</div>
+                        <div className="products-title"><h4>Wipers</h4></div>
                     </Cell>
                     <Cell col={4}>
                         <img src={productImage} alt="productImage"  className="product-img"/>

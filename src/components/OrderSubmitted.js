@@ -20,7 +20,7 @@ export class OrderSubmitted extends Component {
             <MuiThemeProvider>
                 <React.Fragment>
                     <h2>Order Submitted</h2>
-                    <h3>Thank you for your request.</h3> <h4>You will receive a confirmation email within 24 hours if we have your product in stock. Your credit card will not be charged until confirmation of product and quantity. </h4>
+                    <h3>Thank you for your request.</h3> <h4>You will receive an email within 24 hours. If your product is in stock, we will confirm the order and request the payment information at that time. </h4>
                 </React.Fragment>
             </MuiThemeProvider>
         );

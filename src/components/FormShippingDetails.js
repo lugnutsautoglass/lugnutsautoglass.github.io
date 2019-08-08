@@ -20,7 +20,7 @@ export class FormShippingDetails extends Component {
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <h3>Payment Information</h3>
+                    <h3>Shipping Information</h3>
                     <TextField
                     hintText="Enter Street Address"
                     floatingLabelText="Street Address"
