@@ -28,7 +28,7 @@ export class Confirm extends Component {
         return (
             <MuiThemeProvider>
                 <React.Fragment>
-                    <h2>Confirm Appointment Request</h2>
+                    <h2>Confirm Information</h2>
                     <List>
                         <ListItem
                             primaryText="First Name"
